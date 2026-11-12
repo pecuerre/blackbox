@@ -1,0 +1,9 @@
+node_modules/
+dist/
+*.log
+
+# State produced by compiling the examples (hidden snapshots, changesets, generated code)
+examples/*/.blackbox/history/
+examples/*/.blackbox/diff/
+examples/*/.blackbox/log/
+examples/*/code/

@@ -1,0 +1,21 @@
+# BlackBox project configuration.
+# This is the only technical file in the project. Everything else is plain language in spec/.
+
+name: "{{name}}"
+
+# The technology the agents generate. Change it before the first compile.
+# Examples: django, rails, laravel, nextjs, express, phoenix
+stack: "{{stack}}"
+
+# Optional constraints, in plain words.
+# stackNotes: "PostgreSQL database, Tailwind for styles, deploy on a single VPS"
+
+agent:
+  model: claude-opus-5-5
+  effort: high        # low | medium | high | xhigh | max
+  bash: ask           # ask = confirm each shell command; allow = never ask
+  # maxTurns: 200
+
+paths:
+  spec: spec          # layer 1: what you write
+  code: code          # layer 4: what the agents generate

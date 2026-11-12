@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="160" height="40" viewBox="0 0 160 40">
+  <rect x="2" y="6" width="22" height="28" rx="3" fill="#2F5D50"/>
+  <rect x="8" y="6" width="3" height="28" fill="#FBF7F0" opacity="0.6"/>
+  <text x="32" y="27" font-family="Georgia, serif" font-size="20" fill="#3B2F2F">Bookclub</text>
+</svg>
