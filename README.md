@@ -89,3 +89,15 @@ To try the example: `cd examples/bookclub && bb compile`.
 | `bb diff` | Show those changes line by line. |
 | `bb compile` (`bb build`) | Have the agents implement the changes. |
 | `bb log` | List previous compiles. |
+
+## License
+
+BlackBox is licensed under the [Apache License 2.0](LICENSE).
+
+The project template that `bb init` copies (`packages/bb/templates/`) and the example
+projects (`examples/`) are licensed under [MIT No Attribution](examples/LICENSE), so
+projects you create with BlackBox are yours with no attribution required.
+
+BlackBox depends on the [Claude Agent SDK](https://www.npmjs.com/package/@anthropic-ai/claude-agent-sdk),
+which is not open source and is subject to Anthropic's own terms; it is installed
+from npm, not distributed with this repository.
